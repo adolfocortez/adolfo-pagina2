@@ -1,0 +1,123 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+.navbar {
+  background-color: #ffdbe2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #d16b86;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links .activo {
+  background-color: #f4c2c2;
+  color: #d16b86;
+}
+
+.contenido-contacto {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.info-contacto h1 {
+  text-align: center;
+  color: #b94e63;
+  margin-bottom: 10px;
+}
+
+.info-contacto p {
+  text-align: center;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+.formulario-contacto button {
+  background-color: #d16b86;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background 0.3s ease;
+}
+
+.formulario-contacto button:hover {
+  background-color: #b94e63;
+}
+
+.redes-sociales {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.redes-sociales h2 {
+  color: #a55c82;
+  margin-bottom: 20px;
+}
+
+.redes-sociales a img {
+  width: 40px;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.redes-sociales a img:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #fbd3d3;
+  color: #555;
+  font-size: 0.9em;
+  margin-top: 40px;
+  border-top: 1px solid #eac6c6;
+}
